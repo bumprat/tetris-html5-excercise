@@ -58,7 +58,6 @@ class Game {
     this.stageGrid.build()
     this.nextGrid = new Grid(this.nextEl, 4, 4)
     this.nextGrid.build()
-    this.newGame()
   }
 
   addInputListener() {
