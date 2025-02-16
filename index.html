@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>俄罗斯方块</title>
+    <link rel="stylesheet" href="tetris.css" />
+    <style></style>
+  </head>
+  <body>
+    <section class="header">
+      <header>
+        <h1>俄罗斯方块</h1>
+      </header>
+    </section>
+    <section class="main">
+      <div id="game">
+        <div id="stage"></div>
+        <div id="control">
+          <button id="up">↑</button>
+          <button id="left">←</button>
+          <button id="right">→</button>
+          <button id="down">↓</button>
+        </div>
+        <div id="gameover">
+          <div>
+            <h1>游戏结束</h1>
+          </div>
+          <button id="start">重新开始</button>
+        </div>
+      </div>
+      <div id="side">
+        <div id="next"></div>
+        当前得分
+        <div id="score"></div>
+        历史最高
+        <div id="maxScore"></div>
+        <div id="log"></div>
+      </div>
+    </section>
+    <section class="footer">
+      <footer>
+        <h5>俄罗斯方块</h5>
+      </footer>
+    </section>
+    <script src="Shapes.js"></script>
+    <script src="Grid.js"></script>
+    <script src="Score.js"></script>
+    <script src="Game.js"></script>
+    <script></script>
+  </body>
+</html>
