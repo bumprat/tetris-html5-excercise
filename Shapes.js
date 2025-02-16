@@ -4,14 +4,14 @@ class ShapeRegistry {
     o*oo ***o o*oo ***o
     o**o *ooo o*oo oooo
     oooo oooo oooo oooo
+    o*oo *ooo o**o oooo
+    o*oo ***o o*oo ***o
+    **oo oooo o*oo oo*o
+    oooo oooo oooo oooo
     o*oo oooo
     o*oo ****
     o*oo oooo
     o*oo oooo
-    o*oo oooo **oo oo*o
-    o*oo ***o o*oo ***o
-    o**o *ooo o*oo oooo
-    oooo oooo oooo oooo
     o*oo oooo o*oo o*oo 
     o**o ***o **oo ***o 
     o*oo o*oo o*oo oooo 
