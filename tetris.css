@@ -104,7 +104,8 @@ section.footer {
 }
 
 #log {
-  width: calc(min(5vw, 3.5vh) * 4);
+  width: calc(min(5vw, 3.5vh) * 5);
+  overflow: auto;
 }
 
 #gameover {
