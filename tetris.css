@@ -92,13 +92,13 @@ section.footer {
 }
 
 #score {
-  font-size: 32px;
+  font-size: 24px;
   font-family: fantasy;
   color: white;
 }
 
 #maxScore {
-  font-size: 32px;
+  font-size: 24px;
   font-family: fantasy;
   color: #bbb;
 }
