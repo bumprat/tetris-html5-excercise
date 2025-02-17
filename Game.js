@@ -196,7 +196,9 @@ class Game {
     this.stageGrid.drawGrid()
     if (stable === true) {
       await this.checkFullLine()
-      this.checkGameOver()
+      if (this.currentSprite.y <= 0) {
+        this.gameOver()
+      }
       this.nextEnter()
       this.genNext()
     }
@@ -256,12 +258,10 @@ class Game {
     this.stageGrid.drawGrid()
   }
 
-  checkGameOver() {
-    if (this.currentSprite.y <= 0) {
-      this.stop()
-      this.log(`游戏结束，总分${this.score.getScore()}!`)
-      this.gameOverEl.style.visibility = "visible"
-    }
+  gameOver() {
+    this.stop()
+    this.log(`游戏结束，总分${this.score.getScore()}!`)
+    this.gameOverEl.style.visibility = "visible"
   }
 
   checkCollision() {

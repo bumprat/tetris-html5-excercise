@@ -24,6 +24,7 @@
           <button id="left">←</button>
           <button id="right">→</button>
           <button id="down">↓</button>
+          <button id="fullscreen">全屏</button>
         </div>
         <div id="gameover">
           <div>
@@ -50,6 +51,16 @@
     <script src="Grid.js"></script>
     <script src="Score.js"></script>
     <script src="Game.js"></script>
-    <script></script>
+    <script>
+      document
+        .querySelector("#fullscreen")
+        .addEventListener("click", function () {
+          if (document.fullscreenElement) {
+            document.exitFullscreen()
+          } else {
+            document.documentElement.requestFullscreen()
+          }
+        })
+    </script>
   </body>
 </html>
