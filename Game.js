@@ -85,7 +85,7 @@ class Game {
         }
       }, 600)
     })
-    document.body.addEventListener("pointerup", function () {
+    el.addEventListener("pointerleave", function () {
       pressing = false
       self.keepPressing = false
     })
