@@ -83,9 +83,9 @@ class Game {
           self.nextInput = input
           self.keepPressing = true
         }
-      }, 500)
+      }, 600)
     })
-    el.addEventListener("pointerup", function () {
+    document.body.addEventListener("pointerup", function () {
       pressing = false
       self.keepPressing = false
     })
